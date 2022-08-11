@@ -1,38 +1,104 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+span a{
+  text-decoration: none;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #2874f0;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+ 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flipkart-logo{
+  width: 80px;
+  height: 20px;
+}
+.logo-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-right: 10px;
+  
 }
-
-.App-link {
-  color: #61dafb;
+button{
+  width: 100px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 1px;
+  margin-left: 10px;
+  margin-right: 20px ;
+  font-size: 15px;
+  color: #2874f0 ;
+  border-style: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.plus{
+  color: yellow;
+  font-weight: bold;
+  font-size: 10px;
+}
+.plus-explor{
+  font-size: 12px;
+  color: #eee;
+}
+input{
+  width: 500px;
+  height: 30px;
+  border-radius: 1px;
+  border-style: none;
+  
+}
+.become-a-seller{
+  font-weight: bold;
+  margin-right: 20px;
+}
+select{
+  border-style: none;
+  border-radius: 1px;
+  background-color: #2874f0 ;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  width: 400px;
+  height: 200px;
+  border:1px solid black;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,106,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.card img{
+  width: 100px;
+  height: 80px;
+}
+.card-details{
+  margin: 0 20px 20px 20px;
+  width: 200px;
+}
+.card-img{
+position: relative;
+/* padding-left: 250px; */
+padding-top: 50px;
+}
+h1{
+  padding: 0;
+  margin: 0;
 }
